@@ -1,0 +1,351 @@
+<HTML><HEAD><TITLE>REGISTRATION FORM</TITLE></HEAD>
+<script language="JavaScript">
+	window.alert("PLEASE FILL IN THE FORM");
+</script>
+<BODY BGCOLOR="#E3CF57">
+<script language="javascript">
+function validate()
+{
+if(document.feedback.fname.value == "")
+	{
+alert(" first name is blank ");
+document.feedback.fname.focus();
+	return false;
+}
+else
+if(document.feedback.lname.value == "")
+{
+alert("last name is blank ");
+document.feedback.lname.focus();
+return false;
+}
+else
+if(document.feedback.state.value == "")
+{
+alert("State is blank ");
+document.feedback.state.focus();
+return false;
+}
+else
+if(document.feedback.lday.value == "")
+{
+alert("lodging day is blank ");
+document.feedback.lday.focus();
+return false;
+}
+else
+if(document.feedback.gg.value == "")
+{
+alert("gender is blank ");
+document.feedback.gg.focus();
+return false;
+}
+else
+if(document.feedback.txtemail.value == "")
+{
+alert(" email is blank");
+document.feedback.txtemail.focus();
+return false;
+}
+else
+if(document.feedback.txtemail.value.indexOf('@')== -1)
+{
+alert(" @ is missing ");
+document.feedback.txtemail.focus();
+return false;
+}
+else
+if(document.feedback.phone.value == "")
+{
+alert(" phone number is blank");
+document.feedback.phone.focus();
+return false;
+}
+else
+if(document.feedback.pt.value == "")
+	{
+alert(" your phone type is blank ");
+document.feedback.pt.focus();
+	return false;
+}
+else
+if(document.feedback.rt.value == "")
+	{
+alert(" Rate is blank ");
+document.feedback.rt.focus();
+	return false;
+}
+}
+</script>
+<body background="img/bn.jpg">
+<center><FORM method="post" name="feedback" action="Appl.html">
+<font color="black"><center>BOOKING</CENTER>
+<table cellspacing=8 cellpadding=1>
+<center><img SRC="HOME.jpg" height=250 width=700> </center>
+<tr><td>First Name <td><input type="text" name="fname"  size="30"> </tr>
+<tr><td>Last Name<td><input type="text" name="lname"  size="30"> </tr>
+<tr><td>State<td><select name="rt" type="text"><option>
+<option>Abia
+<option>Adamawa
+<option>Akwa-Ibom
+<option>Anambara
+<option>Bauchi
+<option>Bayelsa
+<option>Benue
+<option>Borno
+<option>Cross-River
+<option>Delta
+<option>Ebonyi
+<option>Edo
+<option>Ekiti
+<option>Enugu
+<option>Gombe
+<option>Imo
+<option>Jigawa
+<option>Kaduna
+<option>Kano
+<option>Katsina
+<option>Kwara
+<option>Kebbi
+<option>Kogi
+<option>Lagos
+<option>Nasarawa
+<option>Niger
+<option>Ogun
+<option>Ondo
+<option>Osun
+<option>Oyo
+<option>Plateau
+<option>Rivers
+<option>Sokoto
+<option>Taraba
+<option>Yobe
+<option>Zamfara
+<option>FCT
+<tr><td>Date of Birth<td><select name=lday type="text" size=1>
+ <OPTION> 
+  <OPTION value=1>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ <option value=2>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=3>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=4>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=5>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=6>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=7>7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=8>8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=9>9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=10>10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=11>11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=12>12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=13>13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=14>14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=15>15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=16>16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=17>17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=18>18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=19>19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=20>20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=21>21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=22>22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=23>23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=24>24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=25>25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=26>26&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=27>27&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=28>28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=29>29&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=30>30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=31>31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</OPTION></SELECT> <SELECT 
+name="arreval month" month> <OPTION> 
+  <OPTION value=Jan>Jan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Feb>Feb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Mar>Mar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Apr>Apr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=May>May&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Jun>Jun&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Jul>Jul&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Aug>Aug&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Sep>Sep&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Oct>Oct&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Nov>Nov&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Dec>Dec&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</OPTION></SELECT> <SELECT 
+name="arrevals year" year> <OPTION> 
+  <OPTION  
+  value=1990>1990&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1991>1991&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1992>1992&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1993>1993&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1994>1994&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1995>1995&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1996>1996&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1997>1997&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1998>1998&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1999>1999&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2000>2000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2001>2001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2002>2002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2003>2003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2004>2004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2005>2005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2006>2006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2007>2007&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2008>2008<OPTION value=2009>2009<OPTION value=2010>2010<OPTION 
+  value=2011>2011<OPTION value=2012>2012<OPTION value=2013>2013<OPTION 
+  value=2014>2014<OPTION value=2015>2015<OPTION value=2016>2016<OPTION
+   value=2016>2017<OPTION value=2016>2018<OPTION value=2016>2019<OPTION
+ </OPTION></SELECT></tr> <br><p>
+<tr><td>Gender<td> <select name="gg" size=1>
+<option>
+<option value="Male">Male
+<option value="Female">Female	
+</select> </tr>
+<tr><td>Address<td> <input name="txtemail" type="text" size="30"> </tr>
+<tr><td>BOOK IN DATE<td><select name=lday type="text" size=1>
+ <OPTION> 
+  <OPTION value=1>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ <option value=2>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=3>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=4>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=5>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=6>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=7>7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=8>8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=9>9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=10>10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=11>11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=12>12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=13>13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=14>14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=15>15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=16>16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=17>17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=18>18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=19>19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=20>20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=21>21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=22>22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=23>23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=24>24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=25>25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=26>26&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=27>27&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=28>28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=29>29&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=30>30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=31>31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</OPTION></SELECT> <SELECT 
+name="arreval month" month> <OPTION> 
+  <OPTION value=Jan>Jan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Feb>Feb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Mar>Mar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Apr>Apr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=May>May&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Jun>Jun&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Jul>Jul&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Aug>Aug&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Sep>Sep&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Oct>Oct&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Nov>Nov&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Dec>Dec&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</OPTION></SELECT> <SELECT 
+name="arrevals year" year> <OPTION> 
+  <OPTION  
+  value=1990>1990&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1991>1991&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1992>1992&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1993>1993&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1994>1994&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1995>1995&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1996>1996&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1997>1997&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1998>1998&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1999>1999&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2000>2000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2001>2001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2002>2002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2003>2003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2004>2004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2005>2005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2006>2006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2007>2007&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2008>2008<OPTION value=2009>2009<OPTION value=2010>2010<OPTION 
+  value=2011>2011<OPTION value=2012>2012<OPTION value=2013>2013<OPTION 
+  value=2014>2014<OPTION value=2015>2015<OPTION value=2016>2016<OPTION
+   value=2016>2017<OPTION value=2016>2018<OPTION value=2016>2019<OPTION
+ </OPTION></SELECT></tr> <br><p>
+<tr><td>BOOK OUT DATE<td><select name=lday type="text" size=1>
+ <OPTION> 
+  <OPTION value=1>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+ <option value=2>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=3>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=4>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=5>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=6>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=7>7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=8>8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=9>9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=10>10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=11>11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=12>12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=13>13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=14>14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=15>15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=16>16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=17>17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=18>18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=19>19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=20>20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=21>21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=22>22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=23>23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=24>24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=25>25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=26>26&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=27>27&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=28>28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=29>29&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=30>30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=31>31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</OPTION></SELECT> <SELECT 
+name="arreval month" month> <OPTION> 
+  <OPTION value=Jan>Jan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Feb>Feb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Mar>Mar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Apr>Apr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=May>May&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Jun>Jun&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Jul>Jul&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Aug>Aug&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Sep>Sep&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Oct>Oct&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Nov>Nov&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=Dec>Dec&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</OPTION></SELECT> <SELECT 
+name="arrevals year" year> <OPTION> 
+  <OPTION  
+  value=1990>1990&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1991>1991&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1992>1992&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1993>1993&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1994>1994&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1995>1995&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1996>1996&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1997>1997&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1998>1998&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=1999>1999&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2000>2000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2001>2001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2002>2002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2003>2003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2004>2004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2005>2005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2006>2006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2007>2007&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<OPTION 
+  value=2008>2008<OPTION value=2009>2009<OPTION value=2010>2010<OPTION 
+  value=2011>2011<OPTION value=2012>2012<OPTION value=2013>2013<OPTION 
+  value=2014>2014<OPTION value=2015>2015<OPTION value=2016>2016<OPTION
+  value=2016>2017<OPTION value=2016>2018<OPTION value=2016>2019<OPTION
+ </OPTION></SELECT></tr> <br><p>
+<tr><td>ROOM ALLOCATED<td><input name="txtemail" type="text" size="30"> </tr>
+</select></tr>							
+<br><p><p>
+<tr><td><center><input type="submit" value="submit" name="botton1" onclick="return validate()"><A HREF="Appl.HTML"></A>
+<input type="Reset" value="Clear " name="button2" onclick="alert('THE FIELDS WILL BE CLEARED')">
+</form></center><br><tr><td><a ahref="Home.html" target=right><b> </b></a>
+</funt></Script/body></html>
+
